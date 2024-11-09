@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    
+  }
+  
+body{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+}
+
+.nav-bar{
+    height: 10vh;
+    background-color: rgb(76,76,76);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    list-style-type: none;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 80px;
+    letter-spacing: 1px;
+}
+
+.nav-bar h2{
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 6px;
+}
+
+.ress{
+    color: whitesmoke;
+    background-color: rgb(249,173,129);
+    display: inline-block;
+    margin-bottom: 13px;
+    letter-spacing: 1px;
+    padding: 20px 30px 20px 30px;
+    
+}
+
+.nav-bar h5{
+    color: whitesmoke;
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+
+
+.landing-sect{
+    height: 110vh;
+    width: 100%;
+}
+
+.landing-text{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+}
+
+.landing-text h1{
+    font-size: 90px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.landing-img{
+    height: 110vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+.form-cont{
+    padding: 40px;
+    max-width: 80%;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    background-color:rgba(3, 35, 44, 0.541);
+    box-shadow: 0 0 10px gray;
+}
+
+.form-cont h2{
+    margin-bottom: 30px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.form-grp label{
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+
+.form-grp{   
+    margin-right: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.form-grp input{
+    background-color: unset;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.dropdown{
+    background-color: white;
+    padding: 20px;
+    position: relative;
+    width: 270px;
+}
+
+.dropdown input{
+    background-color: unset;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding-bottom: 15px;
+    width: 100%;
+    cursor: pointer;
+}
+.dropdown label{
+    display: block;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);   
+}
+.dropdown-content p {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content p:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.btn{
+    padding: 50px 25px 50px 25px;
+    background-color: rgb(249,173,129);
+}
+
+.btn h3{
+    color: whitesmoke;
+}
+
+.reserve{
+    height: 100vh;
+    background-color: rgba(147, 147, 147, 0.239);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserve-cont{
+    padding: 50px;
+    border: 15px solid  rgb(249,173,129) ;
+    width: 70%;
+    display: flex;
+    gap: 50px;
+}
+.reserve-1{
+    width: 50%;
+    height: 100%;
+}
+.reserve-2{
+    width: 50%;
+    height: 100%;
+}
+
+.reserve-1 h5{
+    letter-spacing: 3px;
+    color: grey;
+    margin-bottom: 10px;
+}
+
+.reserve-1 h1{
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+
+.reserve-1 p{
+    font-size: 13px;
+    color: rgb(169, 169, 169);
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.reserve-2 p{
+    font-size: 13px;
+    color: rgb(169, 169, 169);
+    line-height: 30px;
+    letter-spacing: 1px; 
+    margin-bottom: 30px; 
+    margin-top: 36%;
+}
+
+.reserve-btn{
+    background-color:rgb(249,173,129)  ;
+    display: inline-block;
+    padding: 22px 30px 22px 30px;
+    color: rgba(245, 245, 245, 0.911);
+    letter-spacing: 1px;
+}
+
+.luxury{
+    height: 110vh;
+    background-color: black;
+    display: flex;
+}
+
+.luxury1{
+    height: 110vh;
+    width: 50%;
+    background-color: black;
+    position: relative;
+
+}
+.luxury2{
+   height: 110vh;
+   width: 50%;
+   background-color: black;
+   position: relative;
+}
+
+.luxury-icons h4{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.931);
+    letter-spacing: 1px;
+    margin-right: 5px;
+}
+
+.luxury-icons i{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.932);
+}
+
+.guestbook{
+    height: 75vh;
+}

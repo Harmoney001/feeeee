@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-style: normal;
+    
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+  }
+
+  body{
+    height: 150vh;
+    background-color: rgba(218, 172, 145, 0.317);
+    font-family: "Montserrat Alternates", sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+.form-container{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgb(249,173,129) ;
+}
+
+.form-group{
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+  color: rgb(53,53,53);
+}
+
+.form-group input{
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border:  1px solid  grey;
+}
+
+.form-group input:focus{
+  outline: none;
+  border-color:  rgb(249,173,129);
+}
+.form-group textarea:focus{
+  outline: none;
+  border-color:  rgb(249,173,129);
+}
+
+button {
+  background-color:rgb(249,173,129);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+button:hover{
+    background-color:rgb(53,53,53) ;
+    box-shadow: 0 0 5px grey;
+}
